@@ -1,4 +1,4 @@
-# product-preview-card
+# manage-landing-page
 
 A simple landing page for an hypotetical team collaboration software.
 
