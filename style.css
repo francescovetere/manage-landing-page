@@ -676,14 +676,6 @@ input:where([type="text"], [type="email"]) {
   border: 0;
 }
 
-.container {
-  --max-width: 1110px;
-  --container-padding: 1rem;
-
-  width: min(var(--max-width), 100% - var(--container-padding) * 2);
-  margin-inline: auto;
-}
-
 .vertical-align-center {
   align-items: center;
 }
@@ -824,4 +816,12 @@ input:where([type="text"], [type="email"]) {
   .display-md-inline-flex {
     display: inline-flex;
   }
+}
+
+.main-container {
+  --main-container-max-width: 1110px;
+  --main-container-relative-width: 90%;
+
+  width: min(var(--main-container-max-width), var(--main-container-relative-width));
+  margin-inline: auto;
 }
